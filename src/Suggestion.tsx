@@ -15,14 +15,13 @@ const Suggestion = ({ label, textStyle, ...props }: SuggestionProps) => (
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 6,
-    paddingHorizontal: 3,
-    backgroundColor: 'white',
-    borderColor: '#262626',
-    borderWidth: 0.5,
+    paddingHorizontal: 12,
+    backgroundColor: '#0F0E16',
+    // borderColor: '#262626',
+    // borderWidth: 0.5,
   },
   label: {
-    color: '#262626',
+    color: '#E6E1E5',
   },
 });
-
 export default Suggestion;

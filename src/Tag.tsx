@@ -21,7 +21,7 @@ const Tag = ({ label, textStyle, ...props }: TagProps) => (
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#E2E8F0',
+    backgroundColor: '#D9C1F3',
     marginRight: 8,
     marginBottom: 4,
     paddingHorizontal: 14,
